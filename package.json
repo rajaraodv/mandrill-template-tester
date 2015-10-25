@@ -3,10 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "gulp"
   },
   "dependencies": {
     "express": "~4.13.1",
-    "express-handlebars": "^2.0.1"
+    "express-handlebars": "^2.0.1",
+    "nodemon": "^1.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-notify": "^2.2.0"
   }
 }

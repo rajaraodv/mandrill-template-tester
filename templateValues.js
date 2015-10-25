@@ -15,7 +15,7 @@ module.exports = {
         "global_merge_vars": [
             {
                 "name": "companyName",
-                "content": "Nesting Doll Emporium"
+                "content": "2Nesting Doll Emporium"
             },
             {
                 "name": "subject",
