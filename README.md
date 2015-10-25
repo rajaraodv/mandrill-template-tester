@@ -20,5 +20,6 @@ This project has two files: `template.hbs` and `templateValues.js`
 3. Make change the above two files to make it work for your project
 4. See changes in browser. We use gulp and livereload to automatically restart server and refresh brower.
 
-##Note:
-Once you are done, don't forget to update `templateValues.js` file. You'll have to change the 'template name', 'key' and 'message to' and other values to match your project.
+##Notes:
+1. Once you are done, don't forget to update `templateValues.js` file. You'll have to change the 'template name', 'key' and 'message to' and other values to match your project.
+2. The server currently ignores and returns same text passed to 'title' and 'upper' handlebar helpers.
