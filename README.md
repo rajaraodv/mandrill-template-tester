@@ -7,9 +7,10 @@ This is a simple Node.js Express app that uses the example provided by mandrill 
 2. CD into the directory and do `npm install`
 3. Do `gulp` to run. 
 4. Open browser at: localhost:3000
+5. Click on LiveReload icon to enable and connect it to our node server.
 
-## Install livereload chrome browser extension
-In order to refresh browser when change occurs, please install <a href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei">livereload</a> extension. It shows up next to the addressbar. Click on its icon to enable it.
+## Install LiveReload Chrome browser extension
+In order to refresh browser when change occurs, please install <a href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei">livereload</a> extension. It shows up next to the browser's addressbar. 
 
 ## How to use
 This project has two files: `template.hbs` and `templateValues.js`
@@ -20,4 +21,4 @@ This project has two files: `template.hbs` and `templateValues.js`
 4. See changes in browser. We use gulp and livereload to automatically restart server and refresh brower.
 
 ##Note:
-1. Once you are done, don't forget to update `templateValues.js` file. You'll have to change the 'template name', 'key' and 'message to' and other values to match your project.
+Once you are done, don't forget to update `templateValues.js` file. You'll have to change the 'template name', 'key' and 'message to' and other values to match your project.
